@@ -46,4 +46,4 @@ before_script:
     echo "OpenShift Cluster Running"
 
 script:
-  - oc get pods --all-namespaces
+  - oc get pods
